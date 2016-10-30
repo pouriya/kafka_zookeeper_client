@@ -1,0 +1,15 @@
+{application, kafka_zookeeper_client,
+ [
+  {description, "library for get address of one kafka brokers from zookeeper."},
+  {vsn, "0.1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {env, []},
+  {maintainers, ["pouriya.jahanbakhsh@gmail.com"]},
+  {links, ["https://github.com/Pouriya-Jahanbakhsh/kafka_zookeeper_client"]},
+  {licenses, ["BSD 3-Clause"]}
+
+ ]}.
